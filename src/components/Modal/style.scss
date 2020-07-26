@@ -1,0 +1,45 @@
+.modal-wrapper {
+  .modal-content {
+    border-radius: 15px;
+    top: 15vh;
+    color: #000;
+    @media (min-width: 768px) {
+      width: 85%;
+    }
+  }
+  .modal-header {
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    .modal-title {
+      margin: 0 auto;
+    }
+  }
+  .modal-body {
+    color: #707070;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .close-btn {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .confirm-btn {
+    background: transparent linear-gradient(260deg, #FF9F74 0%, #FF6400 100%) 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    &:hover, &:active, &:focus {
+      box-shadow: none;
+    }
+  }
+  .modal-footer {
+    text-align: center;
+  }
+}
