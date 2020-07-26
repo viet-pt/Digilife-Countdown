@@ -41,5 +41,11 @@
   }
   .modal-footer {
     text-align: center;
+    display: block;
+
+    span {
+      color: #007bff;
+      cursor: pointer;
+    }
   }
 }

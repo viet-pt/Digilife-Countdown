@@ -16,6 +16,10 @@ const KCSModal = ({ isOpenModal, closeButton, closeModal, confirmButton }) => {
     closeModal();
   }
 
+  const goToNewPage = () => {
+    window.open('http://digilife.net.vn/', '_blank');
+  }
+
   return (
     <Modal show={isOpenModal} onHide={closeModal} className="modal-wrapper">
       <Modal.Header>
@@ -62,7 +66,7 @@ const KCSModal = ({ isOpenModal, closeButton, closeModal, confirmButton }) => {
       </Modal.Body>
 
       <Modal.Footer>
-        Điền thông tin đăng ký tham dự và nhận kết quả tại Fanpage Facebook/DigiLife lúc 21h ngày 4/8/2020
+        Điền thông tin đăng ký tham dự và nhận kết quả tại Fanpage <span onClick={goToNewPage}>Facebook/DigiLife</span> lúc 21h ngày 4/8/2020
       </Modal.Footer>
     </Modal>
   );

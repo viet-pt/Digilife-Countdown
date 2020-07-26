@@ -69,11 +69,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:not([href]):hover {
-  color: inherit;
-  text-decoration: none;
-}
-
 button,
 [type="button"],
 [type="reset"],
