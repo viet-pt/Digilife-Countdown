@@ -38,21 +38,6 @@
     "stylelint": "stylelint **/*.scss",
     "eject": "react-scripts eject"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{scss}": [
-      "stylelint --fix",
-      "git add"
-    ]
-  },
   "browserslist": [
     ">0.2%",
     "not dead",

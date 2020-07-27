@@ -1,6 +1,6 @@
 .carousel {
   height: 300px;
-  background: transparent linear-gradient(180deg, #110A1A00 0%, #110A1A 100%) 0% 0% no-repeat padding-box;
+  background: transparent;
   .carousel-img {
     margin: 0;
     @media (max-width: 320px) {
@@ -12,15 +12,15 @@
       height: 230px;
     }
     @media (min-width: 768px) {
-      width: 178px;
-      height: 150px;
+      width: 209px;
+      height: 175px;
     }
     @media (min-width: 996px) {
-      width: 240px;
-      height: 180px;
+      width: 264px;
+      height: 220px;
     }
     @media (min-width: 1200px) {
-      width: 285px;
+      width: 270px;
       height: 220px;
     }
   }
